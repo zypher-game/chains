@@ -9641,7 +9641,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.morphl2.io", "wss://rpc.morphl2.io:8443"],
+  "rpc": ["https://rpc.morphl2.io", "wss://rpc.morphl2.io:8443", "https://rpc-quicknode.morphl2.io", "wss://rpc-quicknode.morphl2.io"],
   "faucets": [],
   "infoURL": "https://morphl2.io"
 }, {
@@ -12179,6 +12179,19 @@
   "rpc": ["https://evm-rpc.mtt.network"],
   "faucets": [],
   "infoURL": "https://mtt.network"
+}, {
+  "name": "Nibiru Mainnet",
+  "chainId": 6900,
+  "shortName": "cataclysm-1",
+  "networkId": 6900,
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "rpc": ["https://evm-rpc.nibiru.fi"],
+  "faucets": [],
+  "infoURL": "https://nibiru.fi"
 }, {
   "name": "Laika Mainnet",
   "chainId": 6942,
@@ -22021,6 +22034,19 @@
   "faucets": [],
   "infoURL": "https://docs.over.network"
 }, {
+  "name": "ZERO Network",
+  "chainId": 543210,
+  "shortName": "zero-network",
+  "networkId": 543210,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.zerion.io/v1/zero"],
+  "faucets": [],
+  "infoURL": "https://docs.zero.network"
+}, {
   "name": "One World Chain Testnet",
   "chainId": 552981,
   "shortName": "OWCTt",
@@ -23047,6 +23073,19 @@
   "rpc": ["https://devnet2openapi.platon.network/rpc", "wss://devnet2openapi.platon.network/ws"],
   "faucets": ["https://devnet2faucet.platon.network/faucet"],
   "infoURL": "https://www.platon.network"
+}, {
+  "name": "Coinweb BNB shard",
+  "chainId": 2222222,
+  "shortName": "cweb-bnb",
+  "networkId": 2222222,
+  "nativeCurrency": {
+    "name": "CWEB",
+    "symbol": "CWEB",
+    "decimals": 18
+  },
+  "rpc": ["https://api-cloud.coinweb.io/eth-rpc-service/bnb"],
+  "faucets": [],
+  "infoURL": "https://coinweb.io"
 }, {
   "name": "DPU Chain",
   "chainId": 2611555,
